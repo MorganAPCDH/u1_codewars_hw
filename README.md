@@ -22,18 +22,31 @@ Codewars is an interactive platform used to practice coding challenges that you 
 
 [Sum of Positive](https://www.codewars.com/kata/5715eaedb436cf5606000381)
 
+
 ## Problem 3
 
 [Squaring an Argument](https://www.codewars.com/kata/523b623152af8a30c6000027)
+const square = (n) => n * n;
 
 ## Problem 4
 
 [Sum Arrays](https://www.codewars.com/kata/53dc54212259ed3d4f00071c)
+function sum (numbers) {
+    "use strict";
+  if (numbers.length === 0) return 0;
+  return numbers.reduce((total, currentValue) => total + currentValue)
+}
 
 ## Problem 5
 
 [Reversed String](https://www.codewars.com/kata/5168bb5dfe9a00b126000018)
+function solution(str){
+  return str.split(``).reverse(``).join(``)
+}
+
 
 ## Submission
 
 - Submit your your pull request following these guidelines: [PR Guidelines](https://github.com/bmorataya3/Pull-Request-Template/blob/main/README.md)
+Im not sure how to do this, i was using the link that sent me straight
+to the problems, i didnt see the forl ability.
