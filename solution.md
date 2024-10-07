@@ -1,9 +1,8 @@
 ## Return Negative
 function makeNegative(num) {
-  // Code?
-  ///if (num <= 0) return num;
+  if (num <= 0) return num;
   return num * -1
-  ///return num > 0 ? -num : num
+  return num > 0 ? -num : num
 }
 Did two solutions for #1 ///=solutions
 
